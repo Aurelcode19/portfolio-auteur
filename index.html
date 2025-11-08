@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>David Bengheya-portfolio d'auteur</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="main-header" id="home">
+      <a href="#home" class="main-header__logo">David Bengheya</a>
+      <nav class="main-header__nav">
+        <ul>
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#works">Œuvres</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="hero" class="hero section">
+        <div class="hero__img-container">
+          <picture>
+            <source
+              srcset="./assets/imgs/Photo de David.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="./assets/imgs/Photo de David.jpg"
+              type="image/jpeg"
+            />
+            <img
+              class="hero__img"
+              src="./assets/imgs/Photo de David.jpg"
+              alt="Photo de David Bengheya"
+            />
+          </picture>
+        </div>
+        <div class="hero__intro">
+          <h1 class="hero__title">
+            Bonjour, je suis David Bengheya,
+            <span class="hero__title-accent">auteur de livres</span>
+          </h1>
+          <a href="#works" class="hero__btn btn">Découvrir</a>
+        </div>
+      </section>
+      <section id="about" class="about section">
+        <h2 class="about__title">Qui suis-je?</h2>
+        <p class="about__text">
+          Moi, c’est David passionné de littérature, d’anime, de séries télé et
+          de tout ce qui peut nourrir l’ imaginaire. Depuis toujours, je rêve
+          d’histoires, qu’elles soient dessinées, écrites ou simplement rêvées.
+          J’ai commencé en voulant faire des bandes dessinées, mais mes récits
+          devenaient trop vastes pour tenir dans quelques planches. Les mots ont
+          fini par remplacer mes crayons, et aujourd’hui, c’est avec ma plume
+          que je construis des mondes — imparfaits, peut-être, mais toujours
+          sincères. Petit défi personnel : lire au moins 250 romans dans ma vie,
+          classiques ou young adult confondus… je n’y suis pas encore, mais
+          chaque page me rapproche de mon but.
+        </p>
+        <a href="#works" class="about__btn btn">Découvrir mes oeuvres</a>
+      </section>
+      <section id="works" class="works section">
+        <h2 class="works__title">Sagas</h2>
+        <p class="works__text">J’ai deux grandes aventures en cours</p>
+        <div class="works__sagas-container">
+          <article class="saga-card">
+            <h3 class="saga-card__title">La saga Gaïa</h3>
+            <p class="saga-card__description">
+              une dystopie qui interroge l ’ évolution de l ’ humanité. La
+              question fondatrice était simple : et si l’humanité actuelle ne
+              changeait pas, où finirions-nous ?
+            </p>
+          </article>
+          <article class="saga-card">
+            <h3 class="saga-card__title">La trilogie du Méta-Univers</h3>
+            <p class="saga-card__description">
+              trois romans extrêmement méta où je passe mon temps à briser le
+              quatrième mur. Les inspirations viennent de toute la pop culture :
+              films, séries, dessins animés… un grand terrain de jeu narratif.
+            </p>
+            <a href="./sagas.html" class="saga-card__btn btn">Voir plus</a>
+          </article>
+        </div>
+      </section>
+      <section id="contact" class="contact section">
+        <h2 class="contact__title">Contactez-moi</h2>
+        <p class="contact__text">
+          Une question, une proposition de projet ou simplement une envie de
+          discuter? N'hesitez pas à m'envoyer un email. Je serai ravi de vous
+          lire.
+        </p>
+        <a href="mailto: davidbengheya@gmail.com" class="contact__btn btn"
+          >Envoyer un email</a
+        >
+      </section>
+    </main>
+    <footer class="main-footer">
+      <p class="main-footer__credit">
+        &copy; 2025 David Bengheya. Tous droits réservés.
+      </p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
